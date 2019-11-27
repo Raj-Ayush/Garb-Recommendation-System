@@ -1,0 +1,289 @@
+@media (min-width:992px) and (max-width:1199px) {
+/*******************************************************for index page***********************************************************/
+.ftrsocialinks i {
+	margin-right: 25px;
+}
+/***************first picture of go exotic places*****************/
+.grid1 figure h2{
+	font-size: 20px;
+}
+.grid1 figure p {
+	font-size: 15px;
+}
+figure.effect-lexi figcaption::before {
+	width: 245px;
+	height: 240px;
+}
+/***************second pic of go exotic places******************/
+.grid2 figure h2{
+	font-size: 20px;
+}
+.grid2 figure p {
+	font-size: 15px;
+}
+/***************third pic of go exotic places******************/
+.grid3 figure h2{
+	font-size: 20px;
+}
+.grid3 figure p {
+	font-size: 15px;
+}
+/***************fourth pic of go exotic places******************/
+.grid4 figure h2{
+	margin-top: 520px;
+	font-size: 20px;
+}
+.grid4 figure p {
+	font-size: 15px;
+}
+/***************our partner pics********************/
+.imgss img {
+	width: 315px;
+}
+/********************************************************end of index page***************************************************************/
+
+/**********************************************************for dare page*****************************************************************/
+figure.effect-duke p {
+	padding: 5px;
+}
+.wfall {
+	margin-top: 15px;
+}
+.arrow-holder {
+	margin-left: 75px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media (min-width:768px) and (max-width:990px) {
+/*********************************************************for index page*****************************************************************/
+.grid2 figure h2{
+	margin-top: 1px;
+}
+.grid3 figure h2{
+	margin-top: 1px;
+}
+.grid4 figure h2{
+	margin-top: 1px;
+}
+/*************************************************************end of index page**********************************************************/
+
+.arrow-holder {
+	margin-top: 85px;
+	margin-left: 40px;
+}
+.grid figure {
+	min-width: 240px;
+}
+.wfall h1 {
+	font-size: 20px;
+}
+.wfall {
+	margin-top: 20px;
+}
+figure.effect-duke p {
+	padding: 10px;
+	font-size: 55%;
+}
+
+
+
+
+
+
+}
+
+
+
+@media (max-width:767px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media (min-width:320px) and (max-width:480px) {
+/********************************************************index page setting**************************************************************/
+.explore h2 {
+	padding-top: 0px;
+}
+.explore p {
+	padding-top: 5px;
+}
+.grid2 figure {
+	margin-left: 0;
+}
+.grid3 figure {
+	margin-left: 0;
+}
+.grid4 figure h2{
+	margin-top: 460px;
+}
+.brdr::before {
+	height: 32px;
+}
+.trav h1 {
+	text-align: center;
+}
+#cssmenu.small-screen #menu-button.menu-opened::after {
+	top: 8px;
+}
+#cssmenu.small-screen #menu-button.menu-opened::before {
+	top: 3px;
+}
+.imgss img {
+	width: 290px;
+}
+.section-title h1::before {
+	margin-left: -151.5px;
+	width: 119px;
+}
+.section-title h1::after {
+	margin-right: -151.5px;
+	width: 119px;
+}
+.headings h2::before {
+	margin-left: -156.5px;
+	width: 130px;
+}
+.headings h2::after {
+	margin-right: -155.5px;
+	width: 177px;
+}
+.carousel-indicators .active {
+	width: 8px;
+	height: 8px;
+}
+.carousel-indicators li {
+	width: 8px;
+	height: 8px;
+	margin: 0px;
+}
+.carousel-control i {
+	font-size: 20px;
+	height: 30px;
+	line-height: 25px;
+	width: 30px;
+}
+.carousel:hover .carousel-control .fa-angle-right, .carousel:hover .carousel-control .icon-next {
+	right: 60%;
+}
+.carousel:hover .carousel-control .fa-angle-left, .carousel:hover .carousel-control .icon-next {
+	left: 60%;
+}
+.carousel-control .fa-angle-right, .carousel-control .icon-next {
+	margin-right: -23px;
+}
+.carousel-control .fa-angle-left, .carousel-control .icon-next {
+	margin-left: -23px;
+}
+.explore h4 {
+	font-size: 20px;
+}
+.explore h2 {
+	font-size: 40px;
+}
+.explore p {
+	font-size: 25px;
+}
+.grid1 figure h2 {
+	margin-top:0px;
+}
+.grid2 figure h2{
+	margin-top: 0;
+}
+.grid3 figure h2{
+	margin-top: 0;
+}
+.grid4 figure h2{
+	margin-top: 0;
+}
+/********************************************end of index page setting*******************************************************************/
+
+.arrow-holder {
+	margin-left: 165px;
+}
+.arrow-holder {
+	margin-left: 80px;
+}
+figure.effect-duke p {
+	padding: 10px;
+}
+.grid10 figure {
+	min-width: 280px;
+	max-height: 280px;
+}
+
+.portfolio-container img {
+	width: 93%;
+	margin-left: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

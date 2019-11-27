@@ -1,0 +1,96 @@
+/*UtilCarousel Base Style*/
+.util-carousel {
+	display: none;
+	position: relative;
+	-ms-touch-action: pan-y;
+}
+.util-carousel .util-wrapper-holder {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.util-carousel .util-wrapper {
+	*zoom: 1;
+	position: relative;
+	display: none;
+}
+.util-carousel .util-wrapper:before, .util-carousel .util-wrapper:after {
+	display: table;
+	content: "";
+	line-height: 0;
+}
+.util-carousel .util-wrapper:after {
+	clear: both;
+}
+.util-carousel .util-item {
+	float: left;
+}
+.dragging, .dragging * {
+	cursor: url('https://www.google.com/intl/en_ALL/mapfiles/closedhand.cur'), move; 
+}
+/**/
+.util-carousel  .util-wrapper,
+.util-carousel  .util-item{
+	-webkit-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
+  	-webkit-transform: translate3d(0,0,0);
+}
+/*UtilCarousel Defualt Theme*/
+.util-theme-default .util-pagination {
+	text-align: center;
+	margin-top: 10px;
+}
+.util-theme-default .util-page span {
+	display: block;
+	width: 100px;
+	height: 2px;
+	background-color: #daa;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+	margin: 5px;
+}
+.util-theme-default .util-page {
+	display: inline-block;
+	cursor: pointer;
+	zoom: 1;
+	*display: inline;
+}
+.util-theme-default  .util-page.active-page span {
+	background-color: #555555;
+}
+.util-theme-default  .util-page:hover span {
+	background-color: black;
+}
+.util-theme-default .util-navigation {
+	text-align: center;
+}
+.util-theme-default .util-prev, .util-theme-default .util-next {
+	display: inline-block;
+	padding: 4px 8px;
+	margin: 5px;
+	background-color: #bbbbbb;
+	color: #ffffff;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 13px;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+	
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.util-theme-default .util-prev:hover, .util-theme-default .util-next:hover {
+	background-color: #555555;
+}
+.util-theme-default .util-disable, .util-theme-default .util-disable:hover {
+	background-color: #bbbbbb;
+	opacity: 0.4;
+	cursor: default;
+}
